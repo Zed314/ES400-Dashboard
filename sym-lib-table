@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name tm1620)(type Legacy)(uri ${KIPRJMOD}/tm1620.lib)(options "")(descr ""))
+  (lib (name tx4139)(type Legacy)(uri ${KIPRJMOD}/tx4139.lib)(options "")(descr ""))
+)
