@@ -309,7 +309,7 @@ L Device:R R?
 U 1 1 60E8524E
 P 3750 3150
 F 0 "R?" H 3820 3196 50  0000 L CNN
-F 1 "300kR" H 3820 3105 50  0000 L CNN
+F 1 "300k" H 3820 3105 50  0000 L CNN
 F 2 "" V 3680 3150 50  0001 C CNN
 F 3 "~" H 3750 3150 50  0001 C CNN
 	1    3750 3150
@@ -320,7 +320,7 @@ L Device:R R?
 U 1 1 60E861E6
 P 3750 3650
 F 0 "R?" H 3820 3696 50  0000 L CNN
-F 1 "59kR" H 3820 3605 50  0000 L CNN
+F 1 "59k" H 3820 3605 50  0000 L CNN
 F 2 "" V 3680 3650 50  0001 C CNN
 F 3 "~" H 3750 3650 50  0001 C CNN
 	1    3750 3650
@@ -375,7 +375,7 @@ L Device:L L?
 U 1 1 60E94F63
 P 3200 2900
 F 0 "L?" V 3390 2900 50  0000 C CNN
-F 1 "68mH" V 3299 2900 50  0000 C CNN
+F 1 "68m" V 3299 2900 50  0000 C CNN
 F 2 "" H 3200 2900 50  0001 C CNN
 F 3 "~" H 3200 2900 50  0001 C CNN
 	1    3200 2900
@@ -1263,10 +1263,6 @@ F 3 "~" H 1500 4900 50  0001 C CNN
 	1    1500 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 4900 1050 4900
-Text Label 1050 4900 0    50   ~ 0
-Control
 $Comp
 L Device:R R?
 U 1 1 61706BB1
@@ -2106,4 +2102,16 @@ F 3 "" H 3750 3800 50  0001 C CNN
 	1    3750 3800
 	1    0    0    -1  
 $EndComp
+Text Label 1050 4900 0    50   ~ 0
+Control
+Wire Wire Line
+	1350 4900 1050 4900
+Text Notes 1750 2000 0    50   ~ 0
++Batt: red\nControl: blue\nCANH:\nCANL:\nGND: black
+Text Notes 5950 3650 0    50   ~ 0
+HiZ: Off\nLOW/HIGH: On
+Text Notes 950  5200 0    50   ~ 0
+HiZ/+Batt: Off\nLOW: On
+Text Notes 3250 5550 0    50   ~ 0
+Is enabled ?
 $EndSCHEMATC
